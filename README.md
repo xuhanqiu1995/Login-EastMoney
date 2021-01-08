@@ -23,12 +23,12 @@ puppeteer的安装较为棘手，几点建议
 1. 使用淘宝的镜像安装，cnpm install puppeteer@v2.1.0 -S 
 1. puppeteer会运行Chromium，Chromium运行需要大量的库文件，系统上面可能没有，一般运行的时候会提示.so文件不存在，可以去[pkg](https://centos.pkgs.org/) 搜索该so文件，可以知道所属哪个rpm，然后进行yum安装
 
-## 技术交流
+## Usage
+Execute script on the command line
 
- - 欢迎加入 QQ 群 465363184 交流学习, 或者发邮件到 xchaoinfo@qq.com 进行交流
- - 视频教程已经上传到腾讯视频和优酷视频，可以通过搜索 `Python 模拟登录那些事儿` 找到
- - 视频教程同时也在微信公众号更新了，[点击扫一扫关注我的微信公众号：xchaoinfo](http://7xti71.com1.z0.glb.clouddn.com/xchaoinfo.jpg)
-
+```bash
+node hn.js
+```
 
 ## 捐赠
 
