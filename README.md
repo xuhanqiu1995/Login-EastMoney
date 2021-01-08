@@ -9,10 +9,10 @@
 2. [axios](https://www.npmjs.com/package/axios) 基于promise的HTTP 库
 3. [ttshitu](http://www.ttshitu.com/test.html) 随便找的一个打码平台
 
-## 运行环境
+## 环境
 
-* 腾讯云2c4g centos7.5 
-* node@v9.3.0 puppeteer@v2.1.0 axios
+* 腾讯云2c4g+centos7.5 
+* node@v9.3.0+puppeteer@v2.1.0+axios
 
 ## tips 
 
