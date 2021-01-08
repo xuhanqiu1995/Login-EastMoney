@@ -27,5 +27,6 @@ Execute script on the command line
 ```bash
 node loginEastMoney.js
 ```
-登录效果图可见haha.jpg
+登录效果图
+![](https://github.com/xuhanqiu1995/Login-EastMoney/blob/main/haha.jpg)  
 
