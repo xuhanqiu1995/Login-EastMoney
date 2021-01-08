@@ -1,21 +1,13 @@
 # Login-EastMoney
-模拟登陆东方财富web交易客户端
-
-# fuck-login
-
-**本项目不在继续维护了(This project is not maintained)**
 
 
-xchaoinfo 2018.06.08
+## 模拟登陆东方财富web交易客户端
 
-## 模拟登录一些常见的网站
+主要基于以下的 Js 的第三 library 
 
-主要基于以下的 Python 的第三 library 
-
-
-1. [requests](http://www.python-requests.org) 处理登录
-2. [pillow](https://github.com/python-pillow/Pillow) 处理验证码
-3. [rsa](https://stuvel.eu/rsa) 处理加密问题
+1. [puppeteer](https://www.npmjs.com/package/puppeteer) 模拟浏览器操作
+2. [axios](https://www.npmjs.com/package/axios) 基于promise的HTTP 库
+3. [ttshitu](http://www.ttshitu.com/test.html) 随便找的一个打码平台
 
 ## Done
 
