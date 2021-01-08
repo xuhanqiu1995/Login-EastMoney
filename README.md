@@ -9,29 +9,6 @@
 2. [axios](https://www.npmjs.com/package/axios) 基于promise的HTTP 库
 3. [ttshitu](http://www.ttshitu.com/test.html) 随便找的一个打码平台
 
-## Done
-
-1. [知乎](http://zhihu.com)
-2. [126邮箱](http://126.com)
-3. [weibo.cn](http://weibo.cn) (验证码识别困难，建议不要用这种方式) 和 [mweibo.cn](http://m.weibo.cn) (推荐使用)
-4. [百度](https://www.baidu.com)
-5. WebQQ by [opdss](https://github.com//opdss) 还有点问题
-6. Webweixin by [opdss](https://github.com//opdss)
-7. [微博网页版](http://weibo.com)
-8. lantouzi by [opdss](https://github.com//opdss)
-9. jd.com by [henry51](https://github.com/[henry51])
-10. liepin.com by [henry51](https://github.com/henry51)
-11. 拉勾网 by [opdss](https://github.com//opdss)
-12. xueqiu.com by xchaoinfo
-13. v2ex.com by [zeekvfu](https://github.com/zeekvfu)
-14. guokr.com by [Zhao Min](https://github.com/zhaozhemin)
-15. blog.CSDN.net by [guoruibiao](https://github.com/guoruibiao)  [博客](http://blog.csdn.net/marksinoberg)
-16. dlut 大连理工大学校园网相关  by [guoruibiao](https://github.com/guoruibiao)  [博客](http://blog.csdn.net/marksinoberg)
-17. attop.com by [justZERO](https://github.com/aloneZERO)
-18. github.com by [wuxiaoxiaoshen](https://github.com/wuxiaoxiaoshen)
-19. [B站](https://www.bilibili.com)
-20. [豆瓣](https://www.douban.com)
-
 ## Todolist
 1. **重构代码，增加可扩展性**
 1. 增加新浪微博网页版的登录 (已解决)
@@ -39,14 +16,12 @@
 1. 重新组织文件结构和代码风格，make it esay to read
 1. 增加可扩展性，方便添加新的功能, 现在开发新功能的例子还很不优雅。
 
-## tips of pull request 
+## tips 
 
-欢迎大家一起来 pull request 
+puppeteer的安装较为棘手，几点建议
 
-1. pull request 尽量做到 Py2 和 Py3 版本的兼容。
-1. 增加新的网站登录
-1. 改进错误, Python版本的兼容
-1. 基于模拟登录增加新的功能。
+1. 使用淘宝的镜像安装，cnpm install puppeteer@v2.1.0 -S 
+1. puppeteer会运行Chromium，Chromium运行需要大量的库文件，系统上面可能没有，一般运行的时候会提示.so文件不存在，可以去[pkg](https://centos.pkgs.org/) 搜索该so文件，可以知道所属哪个rpm，然后进行yum安装
 
 ## 技术交流
 
