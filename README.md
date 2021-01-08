@@ -3,11 +3,16 @@
 
 ## 模拟登陆东方财富web交易客户端
 
-主要基于以下的 Js 的第三 library 
+主要基于部分Js的第三 library 
 
 1. [puppeteer](https://www.npmjs.com/package/puppeteer) 模拟浏览器操作
 2. [axios](https://www.npmjs.com/package/axios) 基于promise的HTTP 库
 3. [ttshitu](http://www.ttshitu.com/test.html) 随便找的一个打码平台
+
+## 运行环境
+
+* 腾讯云2c4g centos7.5 
+* node@v9.3.0 puppeteer@v2.1.0 axios
 
 ## tips 
 
@@ -22,6 +27,5 @@ Execute script on the command line
 ```bash
 node loginEastMoney.js
 ```
-1. 登录效果图可见haha.jpg
+登录效果图可见haha.jpg
 
-## something to add
